@@ -33,4 +33,4 @@ jobs:
           development_branch: 'branch'
           allow_ff: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_ACTIONS_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets._GITHUB_ACTIONS_ACCESS_TOKEN }}
