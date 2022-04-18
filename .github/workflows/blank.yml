@@ -24,6 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - name : permission
+        run: git config --global --add safe.directory /github/workspace
 
       # Runs a single command using the runners shell
       - name: Auto Merge from DEV to QA
