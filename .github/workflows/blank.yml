@@ -32,5 +32,5 @@ jobs:
           stable_branch: 'main'
           development_branch: 'branch'
           allow_ff: false
-   #     env:
-     #     GITHUB_TOKEN: ${{ secrets.CFA_GITHUB_ACTIONS_ACCESS_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.CFA_GITHUB_ACTIONS_ACCESS_TOKEN }}
