@@ -30,7 +30,7 @@ jobs:
         uses: robotology/gh-action-nightly-merge@v1.3.1
         with:
           stable_branch: 'main'
-          development_branch: 'branch'
+          development_branch: 'branch-1'
           allow_ff: false
         env:
           GITHUB_TOKEN: ${{ secrets._GITHUB_ACTIONS_ACCESS_TOKEN }}
